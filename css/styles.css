@@ -14,21 +14,22 @@ body {
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #BBA21B;
 }
 
 .resume-main {
-	background-color: #fffefc;
+	background-color: #E2D7B4;
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #EDE8DD;
 }
 
 /* Styles for lists in the document */
 
 .biography-details li::before, .skill-list li::before {
 	content: ">";
+	color: #CA4500;
 	font-weight: 800;
 	display: inline-block;
 	width: 1em;
@@ -36,7 +37,7 @@ body {
 }
 
 .biography-details li::before {
-	color: #EE7623;
+	color: #CA4500;
 }
 
 .biography-details li, .skill-list li {
@@ -49,3 +50,6 @@ body {
 	height: 1em;
 	flex-basis: 1.4em;
 }
+
+
+
